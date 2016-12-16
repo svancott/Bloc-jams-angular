@@ -9,9 +9,11 @@ module.exports = function(grunt) {
     grunt.initConfig({
 
         watch: {
-            hapi: {
-                files: [
-                    './app/assets/**/*.{png,jpg,jpeg,mp3}',
+            hapi: {              
+                files: 
+                    './app/assets/**/*.
+
+                    {png,jpg,jpeg,mp3}',
                     './app/scripts/**/*.js',
                     './app/styles/**/*.css',
                     './app/pages/**/*.html',
@@ -77,5 +79,43 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-hapi');
+
+};
+
+*/module.exports = function(grunt) {
+ 
+    grunt.registerTask('default', 'Testing out Grunt logging and task callbacks', function() {
+        grunt.log.writeln('This is our first Grunt task!');
+    });
+
+};module.exports = function(grunt) {
+ 
+    grunt.registerTask('default', 'Testing out Grunt logging and task callbacks', function() {
+        grunt.log.writeln('This is our first Grunt task!');
+    });
+
+};module.exports = function(grunt) {
+ 
+    grunt.registerTask('default', 'Testing out Grunt logging and task callbacks', function() {
+        grunt.log.writeln('This is our first Grunt task!');
+    });
+
+};module.exports = function(grunt) {
+ 
+    grunt.registerTask('default', 'Testing out Grunt logging and task callbacks', function() {
+        grunt.log.writeln('This is our first Grunt task!');
+    });
+
+};module.exports = function(grunt) {
+ 
+    grunt.registerTask('default', 'Testing out Grunt logging and task callbacks', function() {
+        grunt.log.writeln('This is our first Grunt task!');
+    });
+
+};module.exports = function(grunt) {
+ 
+    grunt.registerTask('default', 'Testing out Grunt logging and task callbacks', function() {
+        grunt.log.writeln('This is our first Grunt task!');
+    });
 
 };
