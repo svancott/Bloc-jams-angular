@@ -1,5 +1,5 @@
 (function() {
-     function SongPlayer(Fixtures) {
+     function SongPlayer($rootScope, Fixtures) {
           var SongPlayer = {};
 		  
 		 /**
@@ -29,6 +29,12 @@
         		formats: ['mp3'],
         		preload: true
     		});
+			  
+			currentBuzzObject.bind('timeupdate', function() {
+				$rootScope.$apply(function() {
+					SongPlayer.currentTime = currentBuzzObject.getTime();
+				});
+			});
  
     		SongPlayer.currentSong = song;
  		  };
@@ -44,6 +50,13 @@
 		 };
 		 
 		 SongPlayer.currentSong = null;
+		 
+		 /**
+		 * @desc Current playback time (in seconds) of currently playing song
+		 * @type {number}
+		 */
+		 SongPlayer.currentTime = null;
+		 
 		  /**
 		  * @function playSong
 		  * @desc Plays song and sets song.playing to 'true'
@@ -107,7 +120,7 @@
 		 SongPlayer.previous = function() {
 			 /**
 		 	 * @desc index of the current song
-		 	 * @type number
+		 	 * @type {number}
 		 	 */
 			 var currentSongIndex = getSongIndex(SongPlayer.currentSong);
 			 currentSongIndex--;
@@ -128,7 +141,7 @@
 		 SongPlayer.next = function() {
 			 /**
 		 	 * @desc index of the current song
-		 	 * @type number
+		 	 * @type {number}
 		 	 */
 			 var currentSongIndex = getSongIndex(SongPlayer.currentSong);
 			 currentSongIndex++;
@@ -145,6 +158,17 @@
 				 playSong(song);
 			 }
 		 };
+		 
+		 /**
+		 * @function setCurrentTime
+		 * @desc Set current time (in seconds) of currently playing song
+		 * @param {number} time
+		 */
+		 SongPlayer.setCurrentTime = function(time) {
+			 if (currentBuzzObject) {
+				 currentBuzzObject.setTime(time);
+			 }
+		 };
 
       var currentSongIndex = getSongIndex(SongPlayer.currentSong);
 		 
@@ -156,5 +180,5 @@
  
      angular
          .module('blocJams')
-         .factory('SongPlayer', SongPlayer);
+         .factory('SongPlayer', ['$rootScope', 'Fixtures', SongPlayer]);
  })();
