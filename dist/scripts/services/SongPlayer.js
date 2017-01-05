@@ -178,7 +178,7 @@
 		 
 		 /**
 		 * @function setVolume
-		 * @desc Set of currently playing song
+		 * @desc Set volume of currently playing song
 		 * @param {number} volume
 		 */
 		 SongPlayer.setVolume = function(volume) {
