@@ -186,6 +186,12 @@
 				 currentBuzzObject.setVolume(volume);
 			 }
 		 };
+		 
+		 SongPlayer.toggleMute = function() {
+			 if (currentBuzzObject) {
+				 currentBuzzObject.toggleMute();
+			 }
+		 };
 
       var currentSongIndex = getSongIndex(SongPlayer.currentSong);
 		 
