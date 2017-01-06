@@ -168,6 +168,7 @@
 			 
 			 if (currentSongIndex > currentAlbum.songs.length) {
 				 stopSong(song);
+				 
 			 } else {
 				 /**
 		 		 * @desc setting the song
