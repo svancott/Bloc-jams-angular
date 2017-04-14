@@ -1,4 +1,4 @@
-#Bloc Jams
+# Bloc Jams
 
 ![bloc jams logo](http://stevevancott.com/img/bloc_jams_bg.jpg)
 
@@ -17,13 +17,9 @@ When I refactored the app using Angular, I made a simple Fixtures service which 
 
 When I started the project I was already pretty familiar with HTML, CSS, and JavaScript, but had never done anything with jQuery. I found the library to be both practical and powerful, but with a downside of increased loading time.
 
-Refactoring the app with Angular really opened my eyes to the power of the framework, and inspired me to make another app using Angular, [Bloc Chat](https://github.com/svancott/Bloc-Chat). I experienced for the first time how powerful writing clear and organized code can be. Although developing Bloc Jams didn’t require an immense amount of code, I still tried to write it as clearly as possible. There are main directories for the assets, styles, templates and scripts. Within the scripts directory, I separated each section of code in its proper place, utilizing folders for controllers, services, filters and directives. **_Bloc Jams_** is small scale for now, but by keeping the code nice and organized like this, it could be grown and developed into a mainstream app.
+Refactoring the app with Angular really opened my eyes to the power of the framework, and inspired me to make another app using Angular, [Bloc Chat](https://http://stevevancott.com/portfolio/blocChat). I experienced for the first time how powerful writing clear and organized code can be. Although developing Bloc Jams didn’t require an immense amount of code, I still tried to write it as clearly as possible. There are main directories for the assets, styles, templates and scripts. Within the scripts directory, I separated each section of code in its proper place, utilizing folders for controllers, services, filters and directives. **_Bloc Jams_** is small scale for now, but by keeping the code nice and organized like this, it could be grown and developed into a mainstream app.
 
-I had a lot of fun building **_Bloc Jams_** and am quite pleased with the finished product. I became much more experienced with both the jQuery library and AngularJS framework. If you wanna check out the code, here are the links:
-
-[Bloc Jams with jQuery](https://github.com/svancott/bloc-jams)
-
-[Bloc Jams with AngularJS](https://github.com/svancott/bloc-jams-angular)
+I had a lot of fun building **_Bloc Jams_** and am quite pleased with the finished product. I became much more experienced with both the jQuery library and AngularJS framework.
 
 # About me
 
