@@ -1,7 +1,7 @@
 (function() {
      function Fixtures() {
          var Fixtures = {};
-         
+
 		 var albumPicasso = {
          title: 'The Colors',
          artist: 'Pablo Picasso',
@@ -16,7 +16,7 @@
              { title: 'Magenta', duration: '374.22', audioUrl: '/assets/music/magenta' }
          ]
      };
- 
+
      var albumMarconi = {
          title: 'The Telephone',
          artist: 'Guglielmo Marconi',
@@ -31,7 +31,7 @@
              { title: 'Wrong phone number', duration: '2:15' }
          ]
      };
-		 
+
 		 Fixtures.getAlbum = function() {
          	return albumPicasso;
      };
@@ -42,10 +42,10 @@
 			 }
 			return albumCollection;
 	 };
-		 
+
 		 return Fixtures;
      }
- 
+
      angular
          .module('blocJams')
          .factory('Fixtures', Fixtures);

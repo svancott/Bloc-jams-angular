@@ -42,7 +42,7 @@ body.landing {
    40%  {color:grey; left:0px; top:0px; font-size: 5rem;}
    60%  {color:blue; left:0px; top:0px;font-size: 4rem;}
    /*80%  {color:green; left:100px; top:100px;}*/
-   100% {color:rgb(237, 35, 193); left:0px; top:250px;font-weight: bolder; opacity: 1; font-size: 4.5rem;}
+   100% {color:rgb(237, 35, 193); left:0px; top:250px;font-weight: bolder; opacity: 1; font-size: 5rem;}
   }
 
 .selling-points {
