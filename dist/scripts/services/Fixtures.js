@@ -39,6 +39,7 @@
 			 var albumCollection = [];
 			 for (var i = 0; i<numberOfAlbums;i++) {
 				 albumCollection.push(albumPicasso);
+         albumCollection.push(albumMarconi);
 			 }
 			return albumCollection;
 	 };
