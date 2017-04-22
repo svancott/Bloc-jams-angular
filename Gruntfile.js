@@ -1,5 +1,7 @@
 module.exports = function(grunt) {
 
+    grunt.loadNpmTasks('grunt-hapi');
+
     grunt.registerTask( 'default', [ 'clean', 'copy', 'hapi', 'watch'] );
 
     grunt.registerTask( 'build', [ 'clean', 'copy' ] );

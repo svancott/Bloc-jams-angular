@@ -12,25 +12,43 @@ body.landing {
  }
 
 .hero-content .hero-title {
-     position: absolute;             /* positioning will be explained in a resource */
-     top: 40%;                       /* positioning will be explained in a resource */
+     position: absolute;
+     opacity: 0;
+     top: 40%;
      -webkit-transform: translateY(-50%);
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
      width: 100%;                    /* makes sure the title inhabits the full width of its container */
      text-align: center;             /* aligns text in the horizontal center of the element */
+     font-family: fantasy;;
      font-size: 4rem;                /* specifies the size of the font in root em units */
      font-weight: 300;               /* makes the font thinner or lighter weight */
      text-transform: uppercase;      /* transforms the text to be all uppercase lettering */
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
      text-shadow: 1px 1px 0px rgb(58,23,63); /* creates a shadow underneath the text for readability over the image */
+     animation-name: example;
+     animation-duration: 8s;
+     animation-delay: 1s;
+     animation-iteration-count: 1;
+     animation-direction: alternate;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode: forwards;
  }
 
+ @keyframes example {
+   0%   {color:rgb(237, 35, 193); left:0px; top:250px; opacity: 1}
+   20%  {color:yellow; left:100px; top:100px;font-size: 4rem;}
+   40%  {color:grey; left:0px; top:0px; font-size: 5rem;}
+   60%  {color:blue; left:0px; top:0px;font-size: 4rem;}
+   /*80%  {color:green; left:100px; top:100px;}*/
+   100% {color:rgb(237, 35, 193); left:0px; top:250px;font-weight: bolder; opacity: 1; font-size: 4.5rem;}
+  }
+
 .selling-points {
-     position: relative;    
+     position: relative;
  }
- 
+
 .point {
      position: relative;
      padding: 2rem;
@@ -43,11 +61,11 @@ body.landing {
 .ion-music-note:hover {
     transform: rotate(180deg);
 }
- 
+
  .point .point-title {
      font-size: 1.25rem;
  }
- 
+
  .ion-music-note,
  .ion-radio-waves,
  .ion-iphone {
