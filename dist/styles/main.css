@@ -32,7 +32,7 @@ html {
      position: relative;
      left: 2rem;
      cursor: pointer;
-     cursor:
+     text-decoration: none;
  }
 
 .navbar .links-container {
@@ -111,4 +111,15 @@ html {
 
 .clearfix::after {
     clear: both;
+}
+
+.logo{
+  display: flex;
+}
+.word-logo{
+  font-family: 'Monoton', cursive;
+  text-decoration: none;
+  color: rgb(212, 66, 244);
+  padding-left:10px;
+  float:right
 }
