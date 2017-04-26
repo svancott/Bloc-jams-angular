@@ -1,0 +1,20 @@
+.about {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.about-title {
+  position: relative;
+  left:auto;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  font-size: 4rem;
+  padding: 0 auto;
+}
+
+.my-link{
+  height:200px;
+  width:200px;
+  padding: 20px;
+  text-align: center;
+}

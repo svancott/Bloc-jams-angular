@@ -21,7 +21,13 @@
                 url: '/collection',
                 controller: 'CollectionCtrl as collection',
                 templateUrl: '/templates/collection.html'
+            })
+            .state('about', {
+                url: '/about',
+                controller: 'AboutCtrl as about',
+                templateUrl: '/templates/about.html'
             });
+
 
     }
 
