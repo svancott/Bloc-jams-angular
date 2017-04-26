@@ -1,10 +1,10 @@
 body.landing {
-     background-color: rgb(58,23,63); /* sets the background color to an RGB value (see below) */
+     background-color: rgb(58,23,63);
  }
 
 .hero-content {
-     position: relative; /* positioning will be explained in a resource */
-     min-height: 600px;  /* hero content element must be _at least_ 600 pixels */
+     position: relative;
+     min-height: 600px;
      background-image: url(../assets/images/bloc_jams_bg.jpg);
      background-repeat: no-repeat;
      background-position: center center;
@@ -19,14 +19,14 @@ body.landing {
      -moz-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
-     width: 100%;                    /* makes sure the title inhabits the full width of its container */
-     text-align: center;             /* aligns text in the horizontal center of the element */
+     width: 100%;
+     text-align: center;
      font-family: fantasy;;
-     font-size: 4rem;                /* specifies the size of the font in root em units */
-     font-weight: 300;               /* makes the font thinner or lighter weight */
-     text-transform: uppercase;      /* transforms the text to be all uppercase lettering */
-     letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
-     text-shadow: 1px 1px 0px rgb(58,23,63); /* creates a shadow underneath the text for readability over the image */
+     font-size: 4rem;
+     font-weight: 300;
+     text-transform: uppercase;
+     letter-spacing: 0.5rem;
+     text-shadow: 1px 1px 0px rgb(58,23,63);
      animation-name: title;
      animation-duration: 8s;
      animation-delay: 1s;
