@@ -1,16 +1,16 @@
 {
-  "name": "bloc-frontend-project-starter",
+  "name": "Time 2 Jam",
   "version": "0.0.2",
-  "description": "Starter project for the Bloc Frontend Web Development",
+  "description": "An app for music lovers inspired by Spotify",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bloc/bloc-frontend-project-starter"
+    "url": "https://github.com/svancott/Time2Jam"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Bloc Inc",
+  "author": "Stephen VanCott",
   "license": "ISC",
   "dependencies": {
     "hapi": "~7.5.0",
