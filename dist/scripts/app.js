@@ -14,7 +14,7 @@
             })
             .state('album', {
                 url: 'album',
-				controller: 'AlbumCtrl as album',
+				        controller: 'AlbumCtrl as album',
                 templateUrl: '/templates/album.html'
             })
             .state('collection', {
@@ -26,9 +26,12 @@
                 url: '/about',
                 controller: 'AboutCtrl as about',
                 templateUrl: '/templates/about.html'
+            })
+            .state('play', {
+                url: '/play',
+                controller: 'PlayCtrl as play',
+                templateUrl: '/templates/play.html'
             });
-
-
     }
 
     angular

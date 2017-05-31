@@ -1,7 +1,9 @@
 (function() {
-     function AboutCtrl() {}
+     function AboutCtrl() {
+        this.greeting = "hi"
+    }
 
-     angular
-         .module('blocJams')
-         .controller('AboutCtrl', AboutCtrl);
- })();
+    angular
+        .module('blocJams')
+        .controller('AboutCtrl', AboutCtrl);
+})();

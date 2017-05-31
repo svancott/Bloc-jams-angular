@@ -26,7 +26,7 @@ body.landing {
      font-weight: 300;
      text-transform: uppercase;
      letter-spacing: 0.5rem;
-     text-shadow: 1px 1px 0px rgb(58,23,63);
+     text-shadow: 4px 4px 0px rgb(58,23,63);
      animation-name: title;
      animation-duration: 8s;
      animation-delay: 1s;
@@ -37,12 +37,12 @@ body.landing {
  }
 
  @keyframes title {
-   0%   {color:rgb(237, 35, 193); left:0px; top:250px; opacity: 1}
+   0%   {color:rgb(233,50,117); left:0px; top:250px; opacity: 1}
    20%  {color:yellow; left:100px; top:100px;font-size: 4rem;}
    40%  {color:grey; left:0px; top:0px; font-size: 5rem;}
    60%  {color:blue; left:0px; top:0px;font-size: 4rem;}
    /*80%  {color:green; left:100px; top:100px;}*/
-   100% {color:rgb(237, 35, 193); left:0px; top:250px;font-weight: bolder; opacity: 1; font-size: 5rem;}
+   100% {color:rgb(233,50,117)); left:0px; top:250px;font-weight: bolder; opacity: 1; font-size: 5rem;}
   }
 
 .selling-points {
@@ -53,10 +53,16 @@ body.landing {
      position: relative;
      padding: 2rem;
      text-align: center;
-     opacity: 1;
-     -webkit-transform: scaleX(0.9) translateY(3rem);
+     opacity:1;
+     /*-webkit-transform: scaleX(0.9) translateY(3rem);
      -moz-transform: scaleX(0.9) translateY(3rem);
      transform: scaleX(0.9) translateY(3rem);
+     -webkit-transition: all 0.25s ease-in-out;
+     -moz-transition: all 0.25s ease-in-out;
+     transition: all 0.25s ease-in-out;
+     -webkit-transition-delay: 0.2s;
+     -moz-transition-delay: 0.2s;
+     transition-delay: 0.2s;*/
 }
 .ion-music-note:hover {
     transform: rotate(180deg);
