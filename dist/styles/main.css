@@ -54,7 +54,7 @@ html {
 
     vertical-align: middle;
     color: white;
-    font-size: 0.625rem;
+    font-size: 0.825rem;
     letter-spacing: 0.05rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -65,7 +65,7 @@ html {
 
 .links-container .navbar-link:hover {
     color: rgb(233,50,117);
-    font-size: 0.700rem;
+    font-size: 0.900rem;
 }
 
 .links-container .navbar-link:active {
